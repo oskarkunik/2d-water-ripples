@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://brltebnrq03ad"]
+
+[ext_resource type="PackedScene" uid="uid://bdlfhkuha2x32" path="res://water_spring.tscn" id="1_oxd6x"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Water Spring" parent="." instance=ExtResource("1_oxd6x")]
+position = Vector2(34, 77)
