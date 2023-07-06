@@ -7,16 +7,10 @@ var velocity: int = 0
 var force: int = 0
 
 # The current height of the spring
-var height: float = position.y
+var height: float = 0
 
 # The natural position of the spring
-var target_height: float = position.y + 200
-
-# The spring stiffness constant
-var k: float = 0.04
-
-# The spring dampening value
-var d = 0.04
+var target_height: float = 0
 
 
 func water_update(spring_constant, dampening):
@@ -40,5 +34,10 @@ func water_update(spring_constant, dampening):
 	# Move the pring
 	position.y += velocity
 
-func _physics_process(_delta: float) -> void:
-	water_update(k, d)
+
+
+
+func initialize():
+	height = position.y
+	target_height = position.y
+	velocity = 0

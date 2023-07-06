@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://brltebnrq03ad"]
 
-[ext_resource type="PackedScene" uid="uid://bdlfhkuha2x32" path="res://water_spring.tscn" id="1_oxd6x"]
+[ext_resource type="PackedScene" uid="uid://dgbv25rbirfm1" path="res://water_body.tscn" id="1_7v3vy"]
 
 [node name="Main" type="Node2D"]
 
-[node name="Water Spring" parent="." instance=ExtResource("1_oxd6x")]
-position = Vector2(242, 100)
+[node name="Water Body" parent="." instance=ExtResource("1_7v3vy")]
+position = Vector2(66, 161)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgbv25rbirfm1"]
+
+[ext_resource type="PackedScene" uid="uid://bdlfhkuha2x32" path="res://water_spring.tscn" id="1_hjsks"]
+[ext_resource type="Script" path="res://water_body.gd" id="1_vxmve"]
+
+[node name="Water Body" type="Node2D"]
+script = ExtResource("1_vxmve")
+
+[node name="Water Spring" parent="." instance=ExtResource("1_hjsks")]
+position = Vector2(100, 150)
+
+[node name="Water Spring2" parent="." instance=ExtResource("1_hjsks")]
+position = Vector2(150, 150)
+
+[node name="Water Spring3" parent="." instance=ExtResource("1_hjsks")]
+position = Vector2(200, 150)
+
+[node name="Water Spring4" parent="." instance=ExtResource("1_hjsks")]
+position = Vector2(250, 150)
+
+[node name="Water Spring5" parent="." instance=ExtResource("1_hjsks")]
+position = Vector2(300, 150)
