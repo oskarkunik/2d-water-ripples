@@ -5,4 +5,4 @@
 [node name="Main" type="Node2D"]
 
 [node name="Water Spring" parent="." instance=ExtResource("1_oxd6x")]
-position = Vector2(34, 77)
+position = Vector2(242, 100)
